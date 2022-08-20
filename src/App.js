@@ -16,6 +16,7 @@ function App() {
         <div>
             <h1>How fast do you type?</h1>
             <textarea
+                cols={35}
                 ref={textBoxRef}
                 onChange={handleChange}
                 value={text}
